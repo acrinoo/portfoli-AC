@@ -1,0 +1,155 @@
+body {
+    background-image: url(dusty-rose.png);
+}
+
+body {
+
+    font-family: 'Nunito', sans-serif;
+}
+
+.annc {
+    max-width: 250px;
+    margin: 0 0 30px 30px;
+    border: white;
+    border-width: 2px;
+    border-style: dotted;
+    float: right;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+.button {
+    background-color: beige;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+blad {
+    width: 20px;
+    height: 25px;
+}
+
+
+h2 {
+    color: antiquewhite;
+    padding: 20px 0 2px;
+}
+
+/*//prøve // */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 96%;
+    margin: 2%;
+}
+
+.navigation {
+    width: 100%;
+    float: left;
+}
+
+.headline {
+    float: right;
+    width: 0px;
+}
+
+h1 {
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.liste {
+    float: left;
+    width: 90%;
+}
+
+ul {
+    overflow: auto;
+    list-style-type: none;
+    margin-left: -12px;
+}
+
+li {
+    height: 25px;
+    float: left;
+    margin-right: 0px;
+    border-right: 1px solid #E6E120;
+    padding: 0 20px 5px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #E6E120;
+    font: 25px/1 nunito, sans-serif;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+}
+
+li a:hover {
+    color: #666;
+}
+
+li.active a {
+    font-weight: bold;
+    color: #333;
+}
+
+.plenum {
+    width: 100%;
+    height: 250px;
+}
+
+.hipposkitse {
+    width: 450px;
+    height: 250px;
+    transform: rotate(90deg);
+}
+
+.flamingoskitse {
+    transform: rotate(180deg);
+    )
+}
+
+.animationer {
+    flex-grow: 1;
+
+}
+
+.digitalelosninger {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.plakat {
+    margin: 0 15%;
+    width: 70%;
+}
+
+/*
+
+
+/*/
+
+@media (max-width: 400px) {
+
+    li {
+        height: 23px;
+        padding: 0 15px 5px;
+    }
+
+    li a {
+        font: 21px/1 nunito, sans-serif;
+    }
+}

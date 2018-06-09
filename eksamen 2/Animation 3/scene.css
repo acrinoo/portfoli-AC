@@ -1,0 +1,152 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#scene {
+
+    width: 100vw;
+    height: 50vw;
+    position: relative;
+
+}
+
+#baggrund {
+    background-image: url(Baggrundfinido.png);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#mellemgrund {
+    background-image: url(mellemgrunfinido.png);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#forgrund {
+    background-image: url(Forgrundfinido.png);
+    background-size: 100%;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+
+    top: 30vw;
+    left: 0;
+}
+
+/*Knap*/
+
+#start {
+    background-color: hotpink;
+    width: 70px;
+    height: 20px;
+    outline-style: dotted;
+    margin-top: 15;
+    margin-left: 5px;
+}
+
+/*Flamingo*/
+
+#flamingo {
+    background-image: url("FLAMINGOsprite-03.svg");
+    background-size: 800% 100%;
+    width: 30vw;
+    height: 10vw;
+    position: absolute;
+    bottom: -3;
+    z-index: 1;
+}
+
+
+#element {
+    position: absolute;
+    width: 200vw;
+    height: 40vw;
+}
+
+
+.walking {
+    animation-name: walk;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(5);
+    animation-direction: reverse;
+}
+
+
+
+@keyframes walk {
+    0% {
+        background-position: 0vw 0vw;
+
+    }
+
+    100% {
+        background-position: -600vw 0vw;
+    }
+
+}
+
+/*Hippo*/
+
+#hippo {
+    background-image: url(Hippoprite.svg);
+    background-size: 400% 100%;
+    width: 50vw;
+    height: 25vw;
+    bottom: -2;
+    z-index: 5;
+    position: absolute;
+    right: 0px;
+}
+
+
+.flytind {
+
+    animation-name: walk;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(5);
+    animation-direction: alternate;
+
+}
+
+/*
+@keyframes walk {
+    0% {
+        background-position: -2100vw 500vw;
+
+    }
+    100% {
+        background-position: 0vw 0vw;
+    }
+*/
+
+#skypink {
+    background-image: url(PINKTALEBOBEL-04.svg);
+    background-size: 100% 100%;
+    width: 25vw;
+    height: 25vw;
+    position: sticky;
+    left: 20vw;
+}
+
+#skygron {
+    background-image: url(GR%C3%98NTALEBOBEL-03.svg);
+    background-size: 100% 100%;
+    width: 25vw;
+    height: 25vw;
+    position: relative;
+    bottom: 20vw;
+    left: 300;
+}

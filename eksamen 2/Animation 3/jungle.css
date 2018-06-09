@@ -1,0 +1,60 @@
+/*index.html*/
+
+.body {
+    background-color: red;
+}
+
+.scenebillede {
+    background-image: url(mellemgrunfinido.png);
+    background-size: 100% auto;
+    
+}
+
+.scenebillede:before {
+    background-image: url(Baggrundfinido.png);
+    background-size: 100% auto;
+    
+}
+
+.scenebillede:after {
+    background-image: url(Forgrundfinido.png);
+    background-size: 100% auto;
+    
+}
+
+
+/*Styletile*/
+
+#Feeling .div {
+    height: 50px;
+    width: 50%;
+}
+
+
+/*Walkcycle */
+
+/*
+#man {
+    position: absolute;
+    width: 30vw;
+    height: 44.12vw;
+    background-image: url(spritesheet.svg);
+    background-size: 800% 100%;
+}
+
+.walking {
+    animation-name: walk;
+    animation-duration: 1s;
+    animation-timing-function: steps(8);
+    animation-iteration-count: infinite;
+}
+
+@keyframes walk {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 800% 0%;
+    }
+}
+*/
